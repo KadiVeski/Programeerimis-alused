@@ -2,7 +2,7 @@
 
 
 
-document.write (checkTemp(60));
+//document.write (checkTemp(60));
 
 function checkTemp(temp) {
     var temperatuur = 1000;
