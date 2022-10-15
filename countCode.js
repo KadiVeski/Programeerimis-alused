@@ -12,7 +12,7 @@ for (let i = 0; i < data.length; i++) {
 
 
   var char=string.charAt(0);
-  //document.write(char);
+  
   if (char === letter ) {
   counter++;
 
