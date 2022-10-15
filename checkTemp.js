@@ -13,11 +13,11 @@ function checkTemp(temp) {
     
     } else if(temp>=21 && temp<=40) {
     temperatuur = 0;
-//        document.write('temperatuur on paras');
+
 
     } else if(temp>=41 && temp<=60) {
     temperatuur = 1;
-//        document.write('liiga kuum');
+
       }
     return temperatuur;
 
