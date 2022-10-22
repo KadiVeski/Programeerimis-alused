@@ -4,12 +4,9 @@ const data = ["FWmcfgAWxe","KnFJXGcACq","cCYApSPiX0","iHwbq2giBx","X5Ebl6sjLf","
 
 function countCode(letter) {
   var counter = 0;
-
 for (let i = 0; i < data.length; i++) {
   var string = data[i];
-
   var char=string.charAt(0);
-  
   if (char === letter ) {
   counter++;
 }
