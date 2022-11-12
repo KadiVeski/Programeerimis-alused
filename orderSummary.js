@@ -38,7 +38,7 @@ var summa = 0;
 tellimus.rows.forEach(myFunction);
 
 function myFunction(value) {
-  document.write(value.name, value.amount, value.price, '<BR>');
+  //document.write(value.name, value.amount, value.price, '<BR>');
 summa=summa+value.price * value.amount;
 }
 document.write(summa, '<BR>');
